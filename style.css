@@ -1,6 +1,9 @@
+/* Import a nice Google Font (Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f8f9fa; /* Light gray background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,18 +13,35 @@ body {
 
 .container {
     background-color: #fff;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     text-align: center;
 }
 
+h1 {
+    color: #007bff; /* Blue heading */
+    margin-bottom: 20px;
+}
+
+.fact-box {
+    background-color: #e9ecef; /* Lighter gray for the fact box */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 button {
-    background-color: #4CAF50;
+    background-color: #28a745; /* Green button */
     color: white;
-    padding: 12px 20px;
+    padding: 14px 24px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    transition: background-color 0.3s; /* Smooth transition for button hover effect */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
 }
